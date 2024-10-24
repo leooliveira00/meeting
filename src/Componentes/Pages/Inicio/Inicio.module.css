@@ -1,0 +1,8 @@
+.titulo {
+    display: grid;
+    text-align: center;
+}
+
+.botoes__filiais a {
+    padding: 0em 5em;
+}
