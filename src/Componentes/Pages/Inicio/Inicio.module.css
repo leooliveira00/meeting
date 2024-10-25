@@ -1,8 +1,24 @@
 .titulo {
     display: grid;
     text-align: center;
+    color: #133D8D;
 }
 
-.botoes__filiais a {
-    padding: 0em 5em;
+.titulo h1 {
+    font-family:'Montserrat',sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.titulo h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+
+}
+
+.botoes__filiais {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

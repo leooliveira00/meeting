@@ -1,0 +1,14 @@
+.filial {
+    display:flex;
+    justify-content: center;
+}
+
+.filial img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.filial img:hover {
+    transition:0.5s;
+    transform: scale(1.1);
+}

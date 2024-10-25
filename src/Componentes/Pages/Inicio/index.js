@@ -1,3 +1,5 @@
+import Matriz from "../Matriz";
+import Cards from "./Cards";
 import styles from "./Inicio.module.css";
 
 const Inicio = () => {
@@ -7,8 +9,8 @@ const Inicio = () => {
             <h3>Selecione a filial:</h3>
 
         <div className={styles.botoes__filiais}>
-            <a>Filial a</a>
-            <a>Filial b</a>
+            <Cards url="./Matriz" filial="_gyn"/>
+            <Cards url="./SaoPaulo" filial ="_sp"/>
         </div>
 
         </section>
