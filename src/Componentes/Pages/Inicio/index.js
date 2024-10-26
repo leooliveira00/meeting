@@ -1,12 +1,11 @@
-import Matriz from "../Matriz";
+import Titulo from "../../Titulo";
 import Cards from "./Cards";
 import styles from "./Inicio.module.css";
 
 const Inicio = () => {
     return (
-        <section className={styles.titulo}>
-            <h1> Meetings Rooms Scitech</h1>
-            <h3>Selecione a filial:</h3>
+        <section>
+        <Titulo/>
 
         <div className={styles.botoes__filiais}>
             <Cards url="./Matriz" filial="_gyn"/>

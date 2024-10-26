@@ -1,6 +1,7 @@
 .filial {
     display:flex;
     justify-content: center;
+    padding: 5% 0;
 }
 
 .filial img {
